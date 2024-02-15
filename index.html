@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock-paper-scissors</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Rock paper scissors</h1>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="wrapper">
+                <h2 class="sub-title">Choose your weapon</h2>
+                <p class="description">First to score 5 points wins</p>
+                <div class="cards">
+                    <figure class="card card--player">
+                        <img class="icon" src="./icons/question.svg" alt="player icon" />
+                        <figcaption>Player: <span>0</span></figcaption>
+                    </figure>
+                    <figure class="card card--computer">
+                        <img class="icon" src="./icons/question.svg" alt="computer icon" />
+                        <figcaption>Computer: <span>0</span></figcaption>
+                    </figure>
+                </div>
+                <div class="navigation">
+                    <button class="button button--rock" type="button" data-btn="rock"></button>
+                    <button class="button button--scissors" type="button" data-btn="scissors"></button>
+                    <button class="button button--paper" type="button" data-btn="paper"></button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <span>Copyright © 2024</span><a class="link link--github" href="https://github.com/pav-nk">pav_nk</a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
